@@ -1,0 +1,47 @@
+
+body{
+    height: 90vh;
+    background:linear-gradient(90deg ,#00ffff ,#ff00c3);
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+
+.main{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 390px;
+    border-radius: 55px;
+}
+
+label{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+input{
+    background:linear-gradient(130deg ,#00ffff ,#ff00c3,#8400ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: 300px;
+    border: none;
+    border-bottom: 3px solid rgb(4, 0, 255);
+    font-size: 17px;
+    font-family: sans-serif;
+    outline: none;
+}
+
+button{
+    background:linear-gradient(90deg ,#00ffff ,#ff00c3);
+    border: none;
+    border-radius: 20px;
+    width: 90px;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bolder;
+}
